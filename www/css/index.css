@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a.navbar-brand{
+  font-family: 'Stalinist One', cursive;  
+}
+
+.fa{
+    font-size:50px;
+}
+.row{
+    
+    display: flex;
+    justify-content: center;
+}
+.col{
+    display: flex;
+    
+}
+.thumbnail{
+    width:100%
+}
+.justice{
+    padding-right: 3%;
+    padding-left: 3%;
+    
+   
+    text-align: justify;
+}
+h4{
+   font-family: 'Sriracha', cursive; 
+}
+p{
+    font-family: 'Russo One', sans-serif;
+}
+.container{
+    justify-content: center;
+}
+.content{
+    justify-content: center;
+}
+.cardss{
+    justify-content: center;
+}
+.coint{
+    justify-content: center;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+#scrollPath
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    background: rgba(255,255,255,0.05);
+    
+}
+#progressbar
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    animation: animate 5s linear infinite;
+    
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+#progressbar:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(10px)
+}
+#progressbar:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    filter: blur(30px)
+}
+.cint{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.lits{
+    text-align: center;
+    
+}
+ul.no-bullets {
+  list-style-type:none;
+    }
